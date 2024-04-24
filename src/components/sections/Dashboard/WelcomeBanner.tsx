@@ -1,5 +1,6 @@
 // src/components/sections/Dashboard/WelcomeBanner.tsx
 import React from "react";
+import Whitepaper from "../../public/Whitepaper.pdf";
 
 export function WelcomeBanner() {
   return (
@@ -24,11 +25,11 @@ export function WelcomeBanner() {
         </button>
         <button
           onClick={() =>
-            window.open("https://github.com/BankkRoll/Gamba-V2-Next.js")
+            window.open("Whitepaper, ")
           }
           className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
-          👨‍💻 Build your own
+           WhitePaper
         </button>
         <button
           onClick={() => window.open("https://gamba.so/docs")}
