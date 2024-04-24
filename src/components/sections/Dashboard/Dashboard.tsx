@@ -1,5 +1,3 @@
-// src/components/sections/Dashboard/Dashboard.tsx
-
 import { GAMES } from "@/games";
 import { GameCard } from "./GameCard";
 import React from "react";
@@ -17,10 +15,13 @@ export function GameGrid() {
 
 export default function Dashboard() {
   return (
-    <>
+    <div
+      className="bg-cover bg-center"
+      style={{ backgroundImage: "url('/galaxy.png')" }}
+    >
       <WelcomeBanner />
-      <h2 className="text-2xl font-bold text-center">Games</h2>
+      <h2 className="text-2xl font-bold text-center text-white">Games</h2>
       <GameGrid />
-    </>
+    </div>
   );
 }
