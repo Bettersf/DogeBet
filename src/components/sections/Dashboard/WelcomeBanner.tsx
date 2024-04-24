@@ -1,10 +1,9 @@
 // src/components/sections/Dashboard/WelcomeBanner.tsx
 import React from "react";
-import Whitepaper from "/whitepaper.pdf"; // Assuming Whitepaper.pdf is in the public folder
 
 export function WelcomeBanner() {
   const openWhitepaper = () => {
-    window.open(Whitepaper, "_blank");
+    window.open("/Whitepaper.pdf", "_blank");
   };
 
   return (
