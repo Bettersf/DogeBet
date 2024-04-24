@@ -21,7 +21,7 @@ export function WelcomeBanner() {
       </div>
       <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
         <button
-          onClick={() => window.open("https://raydium.io/swap/")}
+          onClick={() => window.open("https://raydium.io/swap/?outputCurrency=6wX3vdFAaLKeUzoPjAi5uKcjyfNQSoosWaJi7NzSuFzf")}
           className="rounded-lg p-3 bg-[#6b46c1] bg-opacity-50 hover:bg-[#553c9a] hover:-translate-y-0.5 transform text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           Buy $DOGE
@@ -33,7 +33,7 @@ export function WelcomeBanner() {
           Whitepaper
         </button>
         <button
-          onClick={() => window.open("https://dexscreener.com")}
+          onClick={() => window.open("https://dexscreener.com/solana/6pkmz4aftjwc66vrdb3cqxn7rteaxv5szhbg8mpvdshh")}
           className="rounded-lg p-3 bg-[#6b46c1] bg-opacity-50 hover:bg-[#553c9a] hover:-translate-y-0.5 transform text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           Chart
