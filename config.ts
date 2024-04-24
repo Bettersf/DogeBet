@@ -17,7 +17,7 @@ export const PLATFORM_CREATOR_FEE = 0.08; // 5% (5/100 = 0.05)
 export const PLATFORM_JACKPOT_FEE = 0.01; // 1% (1/100 = 0.01)
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = "play-gamba.vercel.app";
+export const PLATFORM_SHARABLE_URL = "dogebets.casino";
 
 // Toggle all live events acrossed gamba toast (true = on, false = off)
 export const LIVE_EVENT_TOAST = true;

@@ -33,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   const { showDisclaimer, DisclaimerModal } = useDisclaimer();
   const RPC_ENDPOINT =
     process.env.NEXT_PUBLIC_RPC_ENDPOINT ??
-    "https://api.mainnet-beta.solana.com";
+    "https://mainnet.helius-rpc.com/";
 
   return (
     <div className="bg-background-image h-screen overflow-auto">
