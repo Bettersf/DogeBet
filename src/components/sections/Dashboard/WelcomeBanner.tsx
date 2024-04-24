@@ -1,6 +1,6 @@
 // src/components/sections/Dashboard/WelcomeBanner.tsx
 import React from "react";
-import Whitepaper from "public/Whitepaper.pdf";
+import Whitepaper from "/whitepaper.pdf";
 
 export function WelcomeBanner() {
   return (
