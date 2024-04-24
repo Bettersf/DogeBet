@@ -47,7 +47,6 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
-  
   // ADD NEW TOKENS HERE
   // USE TOKEN LAYOUT FOR LAYOUT STRUCTURE
   // {

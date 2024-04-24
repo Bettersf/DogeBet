@@ -6,7 +6,7 @@ export function WelcomeBanner() {
   };
 
   return (
-    <div className="relative overflow-hidden flex flex-col items-center justify-center p-4 rounded-lg lg:grid lg:grid-cols-3 gap-4 lg:p-10 bg-gradient-to-br from-orange-300 via-pink-500 to-blue-500">
+    <div className="relative overflow-hidden flex flex-col items-center justify-center p-4 rounded-lg lg:grid lg:grid-cols-3 gap-4 lg:p-10 bg-gradient-to-br from-orange-300 via-pink-500 to-blue-500 bg-opacity-50">
       <div className="lg:col-span-2 text-center lg:text-left">
         <div className="flex items-center justify-center md:justify-start">
           <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
@@ -15,7 +15,7 @@ export function WelcomeBanner() {
           <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
         </div>
         <p className="mt-4 text-white drop-shadow">
-         Join our launch and take part in a Huge ecosystem! Soon will we open for staking, and other utilities for the holders!.
+          Join our launch and take part in a Huge ecosystem! Soon we will open for staking and other utilities for the holders!
         </p>
       </div>
       <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
