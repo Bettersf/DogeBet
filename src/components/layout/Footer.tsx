@@ -3,20 +3,16 @@
 // Button links
 const LINKS = [
   {
-    href: "https://explorer.gamba.so/create",
-    title: "🚀 Create Pool",
+    href: "https://t.me/DogeBetsSol",
+    title: "Telegram",
   },
   {
-    href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-    title: "👨‍💻 Build your own",
+    href: "https://twitter.com/DogeBetsSOL",
+    title: "Twitter",
   },
   {
     href: "https://gamba.so/docs",
-    title: "📖 Gamba Docs",
-  },
-  {
-    href: "https://discord.com/invite/HSTtFFwR",
-    title: "💬 Join Discord",
+    title: "Whitepaper V1",
   },
 ];
 
@@ -37,7 +33,7 @@ export default function Footer() {
             href="https://gamba.so/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
-            <img src="/logo.svg" className="h-10" alt="Gamba Logo" />
+            <img src="/DogeBets.png" className="h-10" alt="Gamba Logo" />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             {LINKS.map((link) => (
