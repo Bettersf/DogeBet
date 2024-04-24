@@ -1,4 +1,3 @@
-// src/pages/_app.tsx
 import "@/styles/globals.css";
 import "@solana/wallet-adapter-react-ui/styles.css";
 
@@ -37,36 +36,41 @@ function MyApp({ Component, pageProps }: AppProps) {
     "https://api.mainnet-beta.solana.com";
 
   return (
-    <ConnectionProvider
-      endpoint={RPC_ENDPOINT}
-      config={{ commitment: "processed" }}
+    <div
+      className="bg-cover bg-center"
+      style={{ backgroundImage: "url('/galaxy.png')" }}
     >
-      <WalletProvider autoConnect wallets={[]}>
-        <WalletModalProvider>
-          <TokenMetaProvider tokens={TOKENLIST}>
-            <GambaProvider>
-              <GambaPlatformProvider
-                creator={PLATFORM_CREATOR_ADDRESS}
-                defaultCreatorFee={PLATFORM_CREATOR_FEE}
-                defaultJackpotFee={PLATFORM_JACKPOT_FEE}
-              >
-                <Component {...pageProps} />
-                <Footer />
-                <Toaster
-                  position="bottom-right"
-                  richColors
-                  toastOptions={{
-                    style: { background: "#15151f" },
-                  }}
-                />
-                {LIVE_EVENT_TOAST && <GameToast />}
-                {showDisclaimer && <DisclaimerModal />}
-              </GambaPlatformProvider>
-            </GambaProvider>
-          </TokenMetaProvider>
-        </WalletModalProvider>
-      </WalletProvider>
-    </ConnectionProvider>
+      <ConnectionProvider
+        endpoint={RPC_ENDPOINT}
+        config={{ commitment: "processed" }}
+      >
+        <WalletProvider autoConnect wallets={[]}>
+          <WalletModalProvider>
+            <TokenMetaProvider tokens={TOKENLIST}>
+              <GambaProvider>
+                <GambaPlatformProvider
+                  creator={PLATFORM_CREATOR_ADDRESS}
+                  defaultCreatorFee={PLATFORM_CREATOR_FEE}
+                  defaultJackpotFee={PLATFORM_JACKPOT_FEE}
+                >
+                  <Component {...pageProps} />
+                  <Footer />
+                  <Toaster
+                    position="bottom-right"
+                    richColors
+                    toastOptions={{
+                      style: { background: "#15151f" },
+                    }}
+                  />
+                  {LIVE_EVENT_TOAST && <GameToast />}
+                  {showDisclaimer && <DisclaimerModal />}
+                </GambaPlatformProvider>
+              </GambaProvider>
+            </TokenMetaProvider>
+          </WalletModalProvider>
+        </WalletProvider>
+      </ConnectionProvider>
+    </div>
   );
 }
 
