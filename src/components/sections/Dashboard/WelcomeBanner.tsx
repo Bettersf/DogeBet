@@ -16,6 +16,7 @@ export function WelcomeBanner() {
         </div>
         <p className="mt-4 text-white drop-shadow">
           Join our launch and take part in a Huge ecosystem! Soon we will open for staking and other utilities for the holders!
+           DogeBets CA: 6wX3vdFAaLKeUzoPjAi5uKcjyfNQSoosWaJi7NzSuFzf
         </p>
       </div>
       <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
