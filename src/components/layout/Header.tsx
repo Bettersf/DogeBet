@@ -1,13 +1,19 @@
-import React, { useState } from "react";
+// src/components/sections/Header.tsx
+
 import {
   GambaUi,
   TokenValue,
   useCurrentPool,
   useCurrentToken,
   useTokenBalance,
+  useUserBalance,
 } from "gamba-react-ui-v2";
+import React, { useState } from "react";
 
 import Link from "next/link";
+import { Modal } from "@/components/ui/Modal";
+import TokenSelect from "../ui/TokenSelect";
+import { UserButton } from "../ui/UserButton";
 
 export default function Header() {
   const pool = useCurrentPool();
@@ -87,8 +93,6 @@ export default function Header() {
               <img alt="Gamba logo" src="/logo.svg" className="h-full" />
             </div>
           </Link>
-          <GambaUi.Button className="headerButton">Staking (TBA)</GambaUi.Button>
-          <GambaUi.Button className="headerButton">$DOGE</GambaUi.Button>
         </div>
         <div className="max-sm:text-xs max-sm:gap-1 flex gap-2.5 items-center relative">
           {pool.jackpotBalance > 0 && (
