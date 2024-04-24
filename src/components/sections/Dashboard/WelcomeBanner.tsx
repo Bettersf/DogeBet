@@ -15,7 +15,7 @@ export function WelcomeBanner() {
           <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
         </div>
         <p className="mt-4 text-white drop-shadow">
-          A fair, simple, and decentralized casino on Solana.
+         Join our launch and take part in a Huge ecosystem! Soon will we open for staking, and other utilities for the holders!.
         </p>
       </div>
       <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
