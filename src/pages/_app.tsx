@@ -36,10 +36,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     "https://api.mainnet-beta.solana.com";
 
   return (
-    <div
-      className="bg-cover bg-center"
-      style={{ backgroundImage: "url('/galaxy.png')" }}
-    >
+    <div className="bg-background-image h-screen overflow-auto">
       <ConnectionProvider
         endpoint={RPC_ENDPOINT}
         config={{ commitment: "processed" }}
