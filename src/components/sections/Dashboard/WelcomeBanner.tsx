@@ -39,10 +39,10 @@ export function WelcomeBanner() {
           Chart
         </button>
         <button
-          onClick={() => window.open("https://discord.com/invite/HSTtFFwR")}
+          onClick={() => window.open("https://t.me/DogeBetsSol")}
           className="rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
-          💬 Join Discord
+          💬 Join Telegram
         </button>
       </div>
     </div>
