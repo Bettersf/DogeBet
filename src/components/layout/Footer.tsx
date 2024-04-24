@@ -18,8 +18,8 @@ const LINKS = [
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://twitter.com/bankkroll_eth",
-  title: "© 2024 Template made with ❤️ by Bankk",
+  href: "https://twitter.com/DogeBetsSOL",
+  title: "© 2024 DogeBets",
 };
 
 export default function Footer() {
