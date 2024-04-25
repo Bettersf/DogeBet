@@ -94,7 +94,7 @@ export const GAMES: GameBundle[] = [
       description: `Keno beckons players into a world of strategic decision-making and anticipation, where every choice holds the potential for untold riches. Select up to 10 blocks and place your bets, eagerly awaiting the draw that will determine your fate. Whether opting for fewer numbers and the allure of substantial wins or more numbers for increased odds of success, Keno promises a riveting experience filled with excitement and possibility.`,
     },
     app: dynamic(() => import("./Keno")),
-  v},
+   },
    {
     id: "Wheel",
     meta: {
