@@ -16,30 +16,30 @@ export function WelcomeBanner() {
         </div>
         <p className="mt-4 text-white drop-shadow">
           Take part of a unique CTO, casino added as utility!
-           MONKI CA: HZKXhPGJaRUk7RDrLNjvdg871VKphcRAPeorP7HnBQAM
+          CA: HZKXhPGJaRUk7RDrLNjvdg871VKphcRAPeorP7HnBQAM
         </p>
       </div>
       <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
         <button
-          onClick={() => window.open("https://raydium.io/swap/?outputCurrency=6wX3vdFAaLKeUzoPjAi5uKcjyfNQSoosWaJi7NzSuFzf")}
+          onClick={() => window.open("https://raydium.io/swap/?outputCurrency=HZKXhPGJaRUk7RDrLNjvdg871VKphcRAPeorP7HnBQAM")}
           className="rounded-lg p-3 bg-[#6b46c1] bg-opacity-50 hover:bg-[#553c9a] hover:-translate-y-0.5 transform text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           Buy $MONKI
         </button>
         <button
-          onClick={openWhitepaper} // Use the function to open Whitepaper
+          onClick={() => window.open("https://twitter.com/monkionsol")}
           className="rounded-lg p-3 bg-[#6b46c1] bg-opacity-50 hover:bg-[#553c9a] hover:-translate-y-0.5 transform text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
-          Whitepaper
+          Twitter
         </button>
         <button
-          onClick={() => window.open("https://dexscreener.com/solana/6pkmz4aftjwc66vrdb3cqxn7rteaxv5szhbg8mpvdshh")}
+          onClick={() => window.open("https://dexscreener.com/solana/e4xqrqd2ifnjphmtstsh4pavrzycygfmqqhbshxcufxj")}
           className="rounded-lg p-3 bg-[#6b46c1] bg-opacity-50 hover:bg-[#553c9a] hover:-translate-y-0.5 transform text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           Chart
         </button>
         <button
-          onClick={() => window.open("https://t.me/DogeBetsSol")}
+          onClick={() => window.open("https://t.me/monkicto")}
           className="rounded-lg p-3 bg-[#6b46c1] bg-opacity-50 hover:bg-[#553c9a] hover:-translate-y-0.5 transform text-white transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           💬 Join Telegram
