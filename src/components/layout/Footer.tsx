@@ -3,23 +3,19 @@
 // Button links
 const LINKS = [
   {
-    href: "https://t.me/DogeBetsSol",
+    href: "https://t.me/monkicto",
     title: "Telegram",
   },
   {
-    href: "https://twitter.com/DogeBetsSOL",
+    href: "https://twitter.com/monkionsol",
     title: "Twitter",
-  },
-  {
-    href: "https://gamba.so/docs",
-    title: "Whitepaper V1",
   },
 ];
 
 // Twitter link
 const TWITTER_LINK = {
   href: "https://twitter.com/DogeBetsSOL",
-  title: "© 2024 DogeBets",
+  title: "© 2024 MonkiBets",
 };
 
 export default function Footer() {
