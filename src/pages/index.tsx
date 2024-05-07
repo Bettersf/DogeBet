@@ -11,7 +11,7 @@ export default function HomePage() {
     <>
       <Head>
         <title>DogeBets - Casino</title>
-        <meta name="title" content="DogeBets - Casino" />
+        <meta name="title" content="Monki - Casino" />
         <meta
           name="description"
           content="A fair, simple, and decentralized casino on Solana."
@@ -21,7 +21,7 @@ export default function HomePage() {
         <meta property="og:url" content="https://gamba-v2-nextjs.vercel.app/" />
         <meta
           property="og:title"
-          content="DogeBets - Casino"
+          content="Monki - Casino"
         />
         <meta
           property="og:description"
@@ -29,7 +29,7 @@ export default function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://gamba-v2-nextjs.vercel.app/logo.svg"
+          content="https://gamba-v2-nextjs.vercel.app/5x.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -39,7 +39,7 @@ export default function HomePage() {
         />
         <meta
           property="twitter:title"
-          content="DogeBets - Casino"
+          content="Monki - Casino"
         />
         <meta
           property="twitter:description"
@@ -47,7 +47,7 @@ export default function HomePage() {
         />
         <meta
           property="twitter:image"
-          content="https://gamba-v2-nextjs.vercel.app/logo.svg"
+          content="https://gamba-v2-nextjs.vercel.app/5x.png"
         />
       </Head>
       <Header />
