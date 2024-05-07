@@ -29,7 +29,7 @@ export default function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://gamba-v2-nextjs.vercel.app/5x.png"
+          content="https://gamba-v2-nextjs.vercel.app/Favicon.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -47,7 +47,7 @@ export default function HomePage() {
         />
         <meta
           property="twitter:image"
-          content="https://gamba-v2-nextjs.vercel.app/5x.png"
+          content="https://gamba-v2-nextjs.vercel.app/Favicon.png"
         />
       </Head>
       <Header />
