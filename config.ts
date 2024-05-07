@@ -11,7 +11,7 @@ export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
 );
 
 // Creator fee (in %)
-export const PLATFORM_CREATOR_FEE = 0.08; // 5% (5/100 = 0.05)
+export const PLATFORM_CREATOR_FEE = 0.05; // 5% (5/100 = 0.05)
 
 // Jackpot fee (in %)
 export const PLATFORM_JACKPOT_FEE = 0.01; // 1% (1/100 = 0.01)
