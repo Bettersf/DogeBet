@@ -10,11 +10,15 @@ const LINKS = [
     href: "https://twitter.com/monkionsol",
     title: "Twitter",
   },
+  {
+    href: "https://monkicto.site",
+    title: "Website",
+  },
 ];
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://twitter.com/DogeBetsSOL",
+  href: "https://twitter.com/monkionsol",
   title: "© 2024 MonkiBets",
 };
 
