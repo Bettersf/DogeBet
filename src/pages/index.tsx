@@ -10,7 +10,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>DogeBets - Casino</title>
+        <title>Monki - Casino</title>
         <meta name="title" content="Monki - Casino" />
         <meta
           name="description"
