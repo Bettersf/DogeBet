@@ -10,8 +10,8 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Monki - Casino</title>
-        <meta name="title" content="Monki - Casino" />
+        <title>$GEOG - Casino</title>
+        <meta name="title" content="$GEOG - Casino" />
         <meta
           name="description"
           content="A fair, simple, and decentralized casino on Solana."
@@ -21,7 +21,7 @@ export default function HomePage() {
         <meta property="og:url" content="https://gamba-v2-nextjs.vercel.app/" />
         <meta
           property="og:title"
-          content="Monki - Casino"
+          content="$GEOG - Casino"
         />
         <meta
           property="og:description"
@@ -39,7 +39,7 @@ export default function HomePage() {
         />
         <meta
           property="twitter:title"
-          content="Monki - Casino"
+          content="$GEOG - Casino"
         />
         <meta
           property="twitter:description"
