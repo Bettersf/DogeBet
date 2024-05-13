@@ -3,23 +3,23 @@
 // Button links
 const LINKS = [
   {
-    href: "https://t.me/monkicto",
+    href: "https://t.me/GeogWoshigtunCTO",
     title: "Telegram",
   },
   {
-    href: "https://twitter.com/monkionsol",
+    href: "https://twitter.com/woshigtunCTO",
     title: "Twitter",
   },
   {
-    href: "https://monkicto.site",
+    href: "https://www.geogwoshigtun.com/",
     title: "Website",
   },
 ];
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://twitter.com/monkionsol",
-  title: "© 2024 MonkiBets",
+  href: "https://twitter.com/woshigtunCTO",
+  title: "© 2024 Geoge Washigtun",
 };
 
 export default function Footer() {
