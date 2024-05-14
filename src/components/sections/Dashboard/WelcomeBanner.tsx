@@ -6,7 +6,7 @@ export function WelcomeBanner() {
   };
 
   return (
-    <div className="relative overflow-hidden flex flex-col items-center justify-center p-4 rounded-lg lg:grid lg:grid-cols-3 gap-4 lg:p-10 bg-black bg-opacity-50">
+    <div className="relative overflow-hidden flex flex-col items-center justify-center p-4 rounded-lg lg:grid lg:grid-cols-3 gap-4 lg:p-10 bg-black bg-opacity-80">
   <div className="lg:col-span-2 text-center lg:text-left">
     <div className="flex items-center justify-center md:justify-start">
       <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
