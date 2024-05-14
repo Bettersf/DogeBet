@@ -30,7 +30,7 @@ export default function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://gamba.so/"
+            href="https://www.woshington-games.club/"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <img src="/DogeBets.png" className="h-10" alt="Gamba Logo" />
