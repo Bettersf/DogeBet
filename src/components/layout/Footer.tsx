@@ -19,7 +19,7 @@ const LINKS = [
 // Twitter link
 const TWITTER_LINK = {
   href: "https://twitter.com/woshigtunCTO",
-  title: "© 2024 Geoge Washigtun",
+  title: "© 2024 Geoge Washingtun",
 };
 
 export default function Footer() {
