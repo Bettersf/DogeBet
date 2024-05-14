@@ -12,7 +12,7 @@ export function WelcomeBanner() {
       <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
         Welcome To $GEOG Woshingtun presedential Casino
       </h1>
-      <img src="/wave.gif" className="h-14" alt="Gamba Logo" />
+      <img src="/wave.gif" className="h-12" alt="Gamba Logo" />
     </div>
     <p className="mt-4 text-white font-bold drop-shadow">
       CA: FXwCaUML71j3BzCdwE79Aww3ghvPZPgcL74UY9gNhwP9
