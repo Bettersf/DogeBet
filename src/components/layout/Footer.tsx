@@ -3,23 +3,23 @@
 // Button links
 const LINKS = [
   {
-    href: "https://t.me/GeogWoshigtunCTO",
+    href: "https://t.me/FlokiSolCt0",
     title: "Telegram",
   },
   {
-    href: "https://twitter.com/woshigtunCTO",
+    href: "https://twitter.com/FlokiOnSolCTO",
     title: "Twitter",
   },
   {
-    href: "https://www.geogwoshigtun.com/",
+    href: "https://Floki-sol.site",
     title: "Website",
   },
 ];
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://twitter.com/woshigtunCTO",
-  title: "© 2024 Geoge Washingtun",
+  href: "https://twitter.com/FlokiOnSolCTO",
+  title: "© 2024 Floki On Solana",
 };
 
 export default function Footer() {
@@ -30,7 +30,7 @@ export default function Footer() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://www.woshington-games.club/"
+            href="https://Floki-sol.site"
             className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
           >
             <img src="/DogeBets.png" className="h-10" alt="Gamba Logo" />
