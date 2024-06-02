@@ -7,7 +7,7 @@ import { TokenMetadata } from "./types";
 
 // Solana address you wish to receive fees
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  "E5SS1u9UL2vVNm4sTgwckxeHePAxcdsLvzTdiSQUBMba",
+  "EHhn38Vpcavsr1mZZyEpa4sQMCHKzPaRqyvEeMjjstds",
 );
 
 // Creator fee (in %)
@@ -17,7 +17,7 @@ export const PLATFORM_CREATOR_FEE = 0.05; // 5% (5/100 = 0.05)
 export const PLATFORM_JACKPOT_FEE = 0.01; // 1% (1/100 = 0.01)
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = "woshington-games.club";
+export const PLATFORM_SHARABLE_URL = "floki-bets.online";
 
 // Toggle all live events acrossed gamba toast (true = on, false = off)
 export const LIVE_EVENT_TOAST = true;
