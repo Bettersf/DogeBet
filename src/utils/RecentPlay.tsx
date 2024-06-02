@@ -34,7 +34,7 @@ export function RecentPlay({
       <div className="game-info">
         {game ? (
           <img
-            src={`/games/${game.id}/logo.png`}
+            src={`/games/${game.id}/favicon.png`}
             alt={`Splash for ${game.meta.name}`}
             width={64}
           />
