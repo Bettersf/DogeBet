@@ -47,6 +47,24 @@ export const TOKENLIST = [
     decimals: 9,
     baseWager: 0.01e9,
   },
+  {
+    mint: new PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
+    name: "Jupiter",
+    symbol: "JUP",
+    image:
+      "https://static.jup.ag/jup/icon.png",
+    decimals: 6,
+    baseWager: 0.01e6,
+  },
+  {
+    mint: new PublicKey("DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"),
+    name: "Bonk",
+    symbol: "Bonk",
+    image:
+      "https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I",
+    decimals: 5,
+    baseWager: 0.01e5,
+  },
   // ADD NEW TOKENS HERE
   // USE TOKEN LAYOUT FOR LAYOUT STRUCTURE
   // {
