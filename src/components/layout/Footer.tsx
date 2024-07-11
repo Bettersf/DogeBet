@@ -3,23 +3,23 @@
 // Button links
 const LINKS = [
   {
-    href: "https://t.me/FlokiSolCt0",
+    href: "https://t.me/shibainulfg",
     title: "Telegram",
   },
   {
-    href: "https://twitter.com/FlokiOnSolCTO",
+    href: "https://x.com/shibainulfg",
     title: "Twitter",
   },
   {
-    href: "https://Floki-sol.site",
+    href: "https://www.shibainusol.net/",
     title: "Website",
   },
 ];
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://twitter.com/FlokiOnSolCTO",
-  title: "© 2024 Floki On Solana",
+  href: "https://x.com/shibainulfg",
+  title: "© 2024 Shiba Inu",
 };
 
 export default function Footer() {
