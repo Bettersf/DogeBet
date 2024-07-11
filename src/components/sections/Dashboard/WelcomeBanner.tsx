@@ -12,7 +12,7 @@ export function WelcomeBanner() {
       <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
         Welcome To $SHIB Casino
       </h1>
-      <img src="" className="h-12" alt="Gamba Logo" />
+      <img src="/icon-192.png" className="h-12" alt="Gamba Logo" />
     </div>
     <p className="mt-4 text-white font-bold drop-shadow">
       CA: AyX9ETMfYzM7MLBE6DVDsJzmAQokcQUcJqKxtSMs5HKh
