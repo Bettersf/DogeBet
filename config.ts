@@ -7,7 +7,7 @@ import { TokenMetadata } from "./types";
 
 // Solana address you wish to receive fees
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  "EHhn38Vpcavsr1mZZyEpa4sQMCHKzPaRqyvEeMjjstds",
+  "49VmFApTZ9aRBGARH56vA7Mr32SwHi7XBCRvyKpbTZNG",
 );
 
 // Creator fee (in %)
