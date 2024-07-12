@@ -23,7 +23,7 @@ export function WelcomeBanner() {
       onClick={() => window.open("https://raydium.io/swap/?outputMint=AyX9ETMfYzM7MLBE6DVDsJzmAQokcQUcJqKxtSMs5HKh&inputMint=sol")}
       className="rounded-lg p-3 bg-black-800 bg-opacity-75 hover:bg-black-900 hover:-translate-y-0.5 transform text-white font-bold transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
     >
-      Buy $FLOKI
+      Buy $SHIB
     </button>
     <button
       onClick={() => window.open("https://x.com/shibainulfg")}
