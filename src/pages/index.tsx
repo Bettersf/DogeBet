@@ -18,7 +18,7 @@ export default function HomePage() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://gamba-v2-nextjs.vercel.app/" />
+        <meta property="og:url" content="https://dogebets.casino" />
         <meta
           property="og:title"
           content="Shiba Inu - $SHIB"
@@ -29,13 +29,13 @@ export default function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://gamba-v2-nextjs.vercel.app/favicon.ico"
+          content="https://static.wixstatic.com/media/998431_71247210a0ea47a6a6fd67f5765f8927~mv2.png/v1/fill/w_990,h_986,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/shib-gr.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://gamba-v2-nextjs.vercel.app/"
+          content="https://dogebets.casino"
         />
         <meta
           property="twitter:title"
@@ -47,7 +47,7 @@ export default function HomePage() {
         />
         <meta
           property="twitter:image"
-          content="https://gamba-v2-nextjs.vercel.app/favicon.ico"
+          content="https://static.wixstatic.com/media/998431_71247210a0ea47a6a6fd67f5765f8927~mv2.png/v1/fill/w_990,h_986,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/shib-gr.png"
         />
       </Head>
       <Header />
