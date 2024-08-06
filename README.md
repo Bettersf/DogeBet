@@ -1,6 +1,6 @@
 # Gamba Nextjs
 
-https://www.iloveimg.com/download/nczxgzf75t5hgnhAhgj0f1s16Ag3881vhvy8s8gtt0hs38crmvbt72883m7l7nckhtlqvmqd874sd99sx3x1kr4jrxg7785f1cxswyn0A73qdsym1jb7y3rv05g7lA7g4hdl1wxvwjhnnsz8crxxqzz24s0prgrwx5s6mhzmkhn4Af14qfq1/12<img width="2557" alt="Skjermbilde 2024-08-06 kl  11 51 27" src="https://github.com/user-attachments/assets/9e912b11-c0f9-4e8e-96ba-b90fc6d0cdc9">
+<img width="2557" alt="Skjermbilde 2024-08-06 kl  11 51 27" src="https://github.com/user-attachments/assets/9e912b11-c0f9-4e8e-96ba-b90fc6d0cdc9">
 
 > This is a forked and rewritten repo from the [gamba platform](https://github.com/gamba-labs/platform).
 
