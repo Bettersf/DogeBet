@@ -1,4 +1,4 @@
-# Gamba Nextjs
+# DogeBets Nextjs
 
 <img width="2557" alt="Skjermbilde 2024-08-06 kl  11 51 27" src="https://github.com/user-attachments/assets/9e912b11-c0f9-4e8e-96ba-b90fc6d0cdc9">
 
@@ -19,8 +19,8 @@ To get started with the Gamba Demo, follow these steps:
 1. **Fork and Clone the Repository**
 
    ```
-   git clone https://github.com/BankkRoll/Gamba-V2-Next.js.git
-   cd Gamba-V2-Next.js
+   git clone https://github.com/Bettersf/DogeBet.git
+   cd DogeBet
    ```
 
 2. **Install Dependencies**
