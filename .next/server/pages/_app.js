@@ -18,26 +18,22 @@ exports.modules = {
 
 const LINKS = [
     {
-        href: "https://explorer.gamba.so/create",
-        title: "\uD83D\uDE80 Create Pool"
+        href: "https://t.me/shibainulfg",
+        title: "Telegram"
     },
     {
-        href: "https://github.com/BankkRoll/Gamba-V2-Next.js",
-        title: "\uD83D\uDC68‍\uD83D\uDCBB Build your own"
+        href: "https://x.com/shibainulfg",
+        title: "Twitter"
     },
     {
-        href: "https://gamba.so/docs",
-        title: "\uD83D\uDCD6 Gamba Docs"
-    },
-    {
-        href: "https://discord.com/invite/HSTtFFwR",
-        title: "\uD83D\uDCAC Join Discord"
+        href: "https://www.shibainusol.net/",
+        title: "Website"
     }, 
 ];
 // Twitter link
 const TWITTER_LINK = {
-    href: "https://twitter.com/bankkroll_eth",
-    title: "\xa9 2024 Template made with ❤️ by Bankk"
+    href: "https://x.com/shibainulfg",
+    title: "\xa9 2024 Shiba Inu"
 };
 function Footer() {
     return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("footer", {
@@ -51,10 +47,10 @@ function Footer() {
                         /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
                             target: "_blank",
                             rel: "noopener noreferrer",
-                            href: "https://gamba.so/",
+                            href: "https://Floki-sol.site",
                             className: "flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse",
                             children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
-                                src: "/logo.svg",
+                                src: "/DogeBets.png",
                                 className: "h-10",
                                 alt: "Gamba Logo"
                             })
@@ -513,7 +509,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _hooks_useDisclaimer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(1658);
 var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_solana_wallet_adapter_react__WEBPACK_IMPORTED_MODULE_2__, _hooks_useGameEvent__WEBPACK_IMPORTED_MODULE_7__, sonner__WEBPACK_IMPORTED_MODULE_9__, _solana_wallet_adapter_react_ui__WEBPACK_IMPORTED_MODULE_10__, _hooks_useDisclaimer__WEBPACK_IMPORTED_MODULE_11__]);
 ([_solana_wallet_adapter_react__WEBPACK_IMPORTED_MODULE_2__, _hooks_useGameEvent__WEBPACK_IMPORTED_MODULE_7__, sonner__WEBPACK_IMPORTED_MODULE_9__, _solana_wallet_adapter_react_ui__WEBPACK_IMPORTED_MODULE_10__, _hooks_useDisclaimer__WEBPACK_IMPORTED_MODULE_11__] = __webpack_async_dependencies__.then ? (await __webpack_async_dependencies__)() : __webpack_async_dependencies__);
-// src/pages/_app.tsx
 
 
 
@@ -529,40 +524,43 @@ var __webpack_async_dependencies__ = __webpack_handle_async_dependencies__([_sol
 
 function MyApp({ Component , pageProps  }) {
     const { showDisclaimer , DisclaimerModal  } = (0,_hooks_useDisclaimer__WEBPACK_IMPORTED_MODULE_11__/* .useDisclaimer */ .x)();
-    const RPC_ENDPOINT = process.env.NEXT_PUBLIC_RPC_ENDPOINT ?? "https://api.mainnet-beta.solana.com";
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_solana_wallet_adapter_react__WEBPACK_IMPORTED_MODULE_2__.ConnectionProvider, {
-        endpoint: RPC_ENDPOINT,
-        config: {
-            commitment: "processed"
-        },
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_solana_wallet_adapter_react__WEBPACK_IMPORTED_MODULE_2__.WalletProvider, {
-            autoConnect: true,
-            wallets: [],
-            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_solana_wallet_adapter_react_ui__WEBPACK_IMPORTED_MODULE_10__.WalletModalProvider, {
-                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(gamba_react_ui_v2__WEBPACK_IMPORTED_MODULE_3__.TokenMetaProvider, {
-                    tokens: _config__WEBPACK_IMPORTED_MODULE_4__/* .TOKENLIST */ .EX,
-                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(gamba_react_v2__WEBPACK_IMPORTED_MODULE_6__.GambaProvider, {
-                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(gamba_react_ui_v2__WEBPACK_IMPORTED_MODULE_3__.GambaPlatformProvider, {
-                            creator: _config__WEBPACK_IMPORTED_MODULE_4__/* .PLATFORM_CREATOR_ADDRESS */ .Ie,
-                            defaultCreatorFee: _config__WEBPACK_IMPORTED_MODULE_4__/* .PLATFORM_CREATOR_FEE */ .Jr,
-                            defaultJackpotFee: _config__WEBPACK_IMPORTED_MODULE_4__/* .PLATFORM_JACKPOT_FEE */ .cg,
-                            children: [
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
-                                    ...pageProps
-                                }),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_layout_Footer__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {}),
-                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(sonner__WEBPACK_IMPORTED_MODULE_9__.Toaster, {
-                                    position: "bottom-right",
-                                    richColors: true,
-                                    toastOptions: {
-                                        style: {
-                                            background: "#15151f"
+    const RPC_ENDPOINT = "https://mainnet.helius-rpc.com/?api-key=11a2a08c-1a23-415a-90f0-a80b2c11ced7" ?? 0;
+    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+        className: "bg-background-image h-screen overflow-auto",
+        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_solana_wallet_adapter_react__WEBPACK_IMPORTED_MODULE_2__.ConnectionProvider, {
+            endpoint: RPC_ENDPOINT,
+            config: {
+                commitment: "processed"
+            },
+            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_solana_wallet_adapter_react__WEBPACK_IMPORTED_MODULE_2__.WalletProvider, {
+                autoConnect: true,
+                wallets: [],
+                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_solana_wallet_adapter_react_ui__WEBPACK_IMPORTED_MODULE_10__.WalletModalProvider, {
+                    children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(gamba_react_ui_v2__WEBPACK_IMPORTED_MODULE_3__.TokenMetaProvider, {
+                        tokens: _config__WEBPACK_IMPORTED_MODULE_4__/* .TOKENLIST */ .EX,
+                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(gamba_react_v2__WEBPACK_IMPORTED_MODULE_6__.GambaProvider, {
+                            children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(gamba_react_ui_v2__WEBPACK_IMPORTED_MODULE_3__.GambaPlatformProvider, {
+                                creator: _config__WEBPACK_IMPORTED_MODULE_4__/* .PLATFORM_CREATOR_ADDRESS */ .Ie,
+                                defaultCreatorFee: _config__WEBPACK_IMPORTED_MODULE_4__/* .PLATFORM_CREATOR_FEE */ .Jr,
+                                defaultJackpotFee: _config__WEBPACK_IMPORTED_MODULE_4__/* .PLATFORM_JACKPOT_FEE */ .cg,
+                                children: [
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Component, {
+                                        ...pageProps
+                                    }),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_layout_Footer__WEBPACK_IMPORTED_MODULE_5__/* ["default"] */ .Z, {}),
+                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(sonner__WEBPACK_IMPORTED_MODULE_9__.Toaster, {
+                                        position: "bottom-right",
+                                        richColors: true,
+                                        toastOptions: {
+                                            style: {
+                                                background: "#15151f"
+                                            }
                                         }
-                                    }
-                                }),
-                                _config__WEBPACK_IMPORTED_MODULE_4__/* .LIVE_EVENT_TOAST */ .fT && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_hooks_useGameEvent__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {}),
-                                showDisclaimer && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(DisclaimerModal, {})
-                            ]
+                                    }),
+                                    _config__WEBPACK_IMPORTED_MODULE_4__/* .LIVE_EVENT_TOAST */ .fT && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_hooks_useGameEvent__WEBPACK_IMPORTED_MODULE_7__/* ["default"] */ .Z, {}),
+                                    showDisclaimer && /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(DisclaimerModal, {})
+                                ]
+                            })
                         })
                     })
                 })

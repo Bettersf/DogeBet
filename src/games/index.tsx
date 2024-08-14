@@ -76,6 +76,17 @@ export const GAMES: GameBundle[] = [
     app: dynamic(() => import("./Plinko")),
   },
   {
+    id: "crash",
+    meta: {
+      background: "#FF9800",
+      name: "Crash",
+      image: "/games/logo.png",
+      description: `Predict a multiplier target and watch a rocket attempt to reach it. If the rocket crashes before the target, the player loses; if it reaches or exceeds the target, the player wins.`,
+      volatility: 5,
+    },
+    app: dynamic(() => import("./Crash")),
+  },
+  {
     id: "limbo",
     meta: {
       background: "#ff7d7d",

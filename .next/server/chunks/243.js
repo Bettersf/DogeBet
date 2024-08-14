@@ -20,13 +20,13 @@ exports.modules = {
 // config.ts
 
 // Solana address you wish to receive fees
-const PLATFORM_CREATOR_ADDRESS = new _solana_web3_js__WEBPACK_IMPORTED_MODULE_0__.PublicKey("GzzWXXDjLD4FDwDkWB5sARjC2aaLSfCQDjx3dmpoTY7K");
+const PLATFORM_CREATOR_ADDRESS = new _solana_web3_js__WEBPACK_IMPORTED_MODULE_0__.PublicKey("49VmFApTZ9aRBGARH56vA7Mr32SwHi7XBCRvyKpbTZNG");
 // Creator fee (in %)
 const PLATFORM_CREATOR_FEE = 0.05; // 5% (5/100 = 0.05)
 // Jackpot fee (in %)
 const PLATFORM_JACKPOT_FEE = 0.01; // 1% (1/100 = 0.01)
 // Platform URL - Appears in ShareModal
-const PLATFORM_SHARABLE_URL = "play-gamba.vercel.app";
+const PLATFORM_SHARABLE_URL = "https://dogebets.casino";
 // Toggle all live events acrossed gamba toast (true = on, false = off)
 const LIVE_EVENT_TOAST = true;
 // Platform explorer URL - Appears in welcome banner (can be changed for if you have cusotm explorer)
@@ -51,14 +51,21 @@ const TOKENLIST = [
         decimals: 9,
         baseWager: 0.01e9
     },
-    // GUAC
     {
-        mint: new _solana_web3_js__WEBPACK_IMPORTED_MODULE_0__.PublicKey("AZsHEMXd36Bj1EMNXhowJajpUXzrKcK57wW4ZGXVa7yR"),
-        name: "Guacamole",
-        symbol: "GUAC",
-        image: "https://bafkreiccbqs4jty2yjvuxp5x7gzgepquvv657ttauaqgxfhxghuz5us54u.ipfs.nftstorage.link/",
+        mint: new _solana_web3_js__WEBPACK_IMPORTED_MODULE_0__.PublicKey("JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"),
+        name: "Jupiter",
+        symbol: "JUP",
+        image: "https://static.jup.ag/jup/icon.png",
+        decimals: 6,
+        baseWager: 0.01e6
+    },
+    {
+        mint: new _solana_web3_js__WEBPACK_IMPORTED_MODULE_0__.PublicKey("DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"),
+        name: "Bonk",
+        symbol: "Bonk",
+        image: "https://arweave.net/hQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I",
         decimals: 5,
-        baseWager: 2000000e5
+        baseWager: 0.01e5
     }, 
 ];
 

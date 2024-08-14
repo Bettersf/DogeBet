@@ -158,7 +158,7 @@ function Header() {
                                 className: "h-9 m-0 cursor-pointer",
                                 children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
                                     alt: "Gamba logo",
-                                    src: "/logo.svg",
+                                    src: "/DogeBets.png",
                                     className: "h-full"
                                 })
                             })
