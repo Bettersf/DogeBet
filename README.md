@@ -20,6 +20,8 @@ If you need any help or have questions, feel free to reach out to us!
 
 This version adapts the text to Shiba Inu by renaming the platform, integrating Shiba branding, and maintaining the focus on blockchain and decentralized gaming concepts.
 
+> Note: Contact Paradox on telegram for whitelabeling and deployment off your own casino [Paradox](https://t.me/basedmeta).
+
 This project is licensed under the [MIT License](LICENSE).
 
 
