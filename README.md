@@ -21,3 +21,6 @@ If you need any help or have questions, feel free to reach out to us!
 This version adapts the text to Shiba Inu by renaming the platform, integrating Shiba branding, and maintaining the focus on blockchain and decentralized gaming concepts.
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+<img width="2557" alt="Skjermbilde 2024-08-06 kl  11 51 27" src="https://github.com/user-attachments/assets/9e912b11-c0f9-4e8e-96ba-b90fc6d0cdc9">
