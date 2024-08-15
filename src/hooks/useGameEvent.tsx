@@ -36,8 +36,8 @@ function RecentPlay({ event }: { event: GambaTransaction<"GameSettled"> }) {
       />
       <div className={textColorClass}>
         <img
-          src="/logo.svg"
-          alt="gamba"
+          src="/favicon.png"
+          alt="shiba"
           className="absolute top-2 right-2 w-24 h-6 rounded-full"
         />
         <div className="font-bold text-lg">
