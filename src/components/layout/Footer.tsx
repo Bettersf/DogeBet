@@ -18,8 +18,8 @@ const LINKS = [
 
 // Twitter link
 const TWITTER_LINK = {
-  href: "https://x.com/shibainulfg",
-  title: "© 2024 Shiba Inu",
+  href: "https://t.me/BasedMeta",
+  title: "© Shiba Inu 2024 Made by Paradox",
 };
 
 export default function Footer() {
