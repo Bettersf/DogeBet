@@ -12,7 +12,7 @@ Dive into a world of entertainment with a cutting-edge interface that offers a w
 
 **High Liquidity:** With access to Shiba Ecosystem's Shared Pools, liquidity for jackpots and bets is always available for players.
 
-##Join Us Today!
+## Join Us Today!
 
 Start your thrilling adventure into the world of online gaming with ShibaBets and the Shiba Ecosystem. Redefine the gaming experience and unlock endless possibilities for innovation and success.
 
