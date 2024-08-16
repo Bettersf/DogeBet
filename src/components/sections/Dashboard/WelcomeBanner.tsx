@@ -10,12 +10,12 @@ export function WelcomeBanner() {
   <div className="lg:col-span-2 text-center lg:text-left">
     <div className="flex items-center justify-center md:justify-start">
       <h1 className="text-2xl md:text-4xl font-bold text-white drop-shadow-md">
-        Welcome To $SHIB Casino
+        Welcome To $PACA CTO Casino
       </h1>
-      <img src="/icon-192.png" className="h-12" alt="Gamba Logo" />
+      <img src="/logos.png" className="h-12" alt="Paca" />
     </div>
     <p className="mt-4 text-white font-bold drop-shadow">
-      CA: AyX9ETMfYzM7MLBE6DVDsJzmAQokcQUcJqKxtSMs5HKh
+      CA: ZboD8QNn4CaPUa4aYuYRHZiq9E8ej4jKCBuKSCyWkMoh
     </p>
   </div>
   <div className="whitespace-nowrap grid grid-cols-2 grid-rows-2 gap-2 mt-5 md:flex md:flex-col md:mt-0 md:justify-start">
